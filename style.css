@@ -5,6 +5,23 @@ body {
   background-color: ivory;
 }
 
+.ie-history,
+.firefox-history,
+.chrome-history {
+  float: left;
+  width: 300px;
+}
+
+.table-of-contents {
+  display: inline;
+}
+
+li {
+  float: left;
+  display: block;
+  padding: 8px;
+}
+
 h1, h2 {
   font-family: 'Oswald', sans-serif;
 }
